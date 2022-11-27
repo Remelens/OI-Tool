@@ -7,6 +7,20 @@
 
 好了，试着在cmd里输入oi-tool吧！
 
+# 用法：
+
+## 1、直接输入oi-tool
+
+```
+oi-tool
+```
+
+## 2、输入oi-tooi后加命令：
+
+```
+oi-tool open -p p1000
+```
+
 # 帮助：
 ```
 OI-Tool helps
