@@ -12,7 +12,7 @@
 #define GT_MIN 0x000004
 #define GT_SEC 0x000005
 using namespace std;
-string bts(string str){
+extern string bts(string str){
 	int a,len=str.size();
 	for(a=0;a<len;a++){
 		if(str[a]>='A'&&str[a]<='Z'){
