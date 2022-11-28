@@ -83,7 +83,7 @@ extern string GetCmd(string str,int num){
 extern void color(int a,int b){
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),a*16+b);
 }
-int GetTimes(int lei){
+extern int GetTimes(int lei){
 	time_t now_time;
 	now_time = time(NULL);
 	tm* timer=gmtime(&now_time);
