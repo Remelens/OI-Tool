@@ -44,6 +44,13 @@ int run(string cmd){
 	}else if(first=="cls"||first=="clear"){
 		cls;
 		cout<<endl;
+	}else if(first=="cat"){
+		if(GetCmd(ncmd,2)=="-h"||GetCmd(ncmd,2)=="--help"||GetCmd(ncmd,1)=="\0"){
+			cout<<"usage cat [FileName]"<<endl;
+		}else{
+			readfile(GetCmd(cmd,1));
+		}
+		cout<<endl;
 	}else if(first=="\0"){
 		
 	}else{
