@@ -1,5 +1,7 @@
 # OI-Tool
 
+![GitHub](https://img.shields.io/github/license/HelloOSMe/OI-Tool) ![](https://img.shields.io/badge/OS-Windows-green)
+
 不好意思，文件只支持英文。
 
 欢迎使用OI-Tool。  
