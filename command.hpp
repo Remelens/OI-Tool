@@ -1,5 +1,5 @@
 #include "easy-project.hpp"
-const char* path=getcwd(NULL,0);
+const char* path="%temp&/../../../.oi-tool";
 extern void help(string cd){
 	string cmd=bts(cd);
 	if(cmd=="help"){

@@ -1,6 +1,6 @@
 #include "command.hpp"
-const char version[50]="0.0.01-beta";
-const char ver[50]="2022/11/26 14:20:43 main";
+const char version[50]="1.0.0-LTS";
+const char ver[50]="2022/12/04 15:33:31 (UTC +8 CN) main";
 const char copyright[50]="Copyright (c) 2022 HelloOSMe";
 const char license[100]="This file is under GNU General Public License v3.0";
 string oi=GetInfo('n');
@@ -9,6 +9,13 @@ string priOI(){
 		return "NULL";
 	}
 	return oi;
+}
+void make_data_floder(){
+	char* path=getcwd(NULL,0);
+	chdir("%temp%/../../../");
+	system("mkdir \".oi-tool\"");
+	system("cls");
+	chdir(path);
 }
 //-----------------------
 void start(){
@@ -62,6 +69,7 @@ int run(string cmd){
 	return 0;
 }
 int main(int argc,char** argv){
+	make_data_floder();
 	if(argc!=1){
 		string s;
 		for(int i=1;i<argc;i++){
