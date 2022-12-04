@@ -10,8 +10,8 @@ Welcome to use OI-Tool.
 使用方法：  
 How to use...
 
-把文件放到C盘随便哪个文件夹下吃灰，然后在C:/WINDOWS建立一个快捷方式链接到文件。  
-Put the file to any floder and make a link file in "c:/WINDOWS".
+把文件放到C:\WINDOWS。 
+Put the file in "C:\WINDOWS".
 
 好了，试着在cmd里输入oi-tool吧！  
 Try to input "oi-tool" in Terminal!
